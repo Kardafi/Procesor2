@@ -1,0 +1,247 @@
+$date
+	Tue Jan  6 17:03:06 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module decoder_tb $end
+$var wire 1 ! wrDm $end
+$var wire 1 " rstPC $end
+$var wire 1 # portDirD $end
+$var wire 1 $ portDirC $end
+$var wire 1 % portDirB $end
+$var wire 1 & portDirA $end
+$var wire 8 ' dataImm [7:0] $end
+$var wire 1 ( ceR7 $end
+$var wire 1 ) ceR6 $end
+$var wire 1 * ceR5 $end
+$var wire 1 + ceR4 $end
+$var wire 1 , ceR3 $end
+$var wire 1 - ceR2 $end
+$var wire 1 . ceR1 $end
+$var wire 1 / ceR0 $end
+$var wire 1 0 cePortOutD $end
+$var wire 1 1 cePortOutC $end
+$var wire 1 2 cePortOutB $end
+$var wire 1 3 cePortOutA $end
+$var wire 1 4 cePortDirD $end
+$var wire 1 5 cePortDirC $end
+$var wire 1 6 cePortDirB $end
+$var wire 1 7 cePortDirA $end
+$var wire 1 8 cePC $end
+$var wire 1 9 ceAcu $end
+$var wire 3 : aluOper [2:0] $end
+$var wire 2 ; adrSrc [1:0] $end
+$var wire 3 < adrReg [2:0] $end
+$var wire 2 = adrPort [1:0] $end
+$var wire 8 > adrDataMem [7:0] $end
+$var parameter 32 ? adr_mem_width $end
+$var parameter 32 @ prog_mem_data_width $end
+$var reg 13 A dataProgMem [12:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1101 @
+b1000 ?
+$end
+#0
+$dumpvars
+b0 A
+b0 >
+b0 =
+b0 <
+b10 ;
+b0 :
+19
+18
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+b0 '
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#1000
+b111010 >
+19
+b10 ;
+b111010 A
+#2000
+19
+b10 ;
+b11111111 >
+b11111111 A
+#3000
+19
+b1 ;
+b0 >
+b100000000 A
+#4000
+b1 <
+19
+b1 ;
+b100000001 A
+#5000
+19
+b1 ;
+b111 <
+b100000111 A
+#6000
+19
+b0 ;
+b0 <
+b1000000000 A
+#7000
+b110111 '
+19
+b1000110111 A
+#8000
+19
+b11111111 '
+b1011111111 A
+#9000
+1!
+09
+b0 '
+b1100000000 A
+#10000
+b11011110 >
+1!
+b1111011110 A
+#11000
+1!
+b11111111 >
+b1111111111 A
+#12000
+1/
+0!
+b0 >
+b10000000000 A
+#13000
+1.
+0/
+b10000000001 A
+#14000
+1(
+0.
+b10000000111 A
+#15000
+19
+b11 ;
+0(
+b10100000000 A
+#16000
+b11 =
+19
+b11 ;
+b10100000011 A
+#17000
+13
+09
+b0 ;
+b0 =
+b11000000000 A
+#18000
+10
+03
+b11000000011 A
+#19000
+19
+b1 :
+00
+b11100000000 A
+#22000
+b1 ;
+19
+b10 :
+b100000000000 A
+#23000
+b111 <
+19
+b10 :
+b1 ;
+b100000000111 A
+#24000
+19
+b11 :
+b1 ;
+b1 <
+b100100000001 A
+#25000
+19
+b100 :
+b1 ;
+b10 <
+b101000000010 A
+#26000
+19
+b101 :
+b1 ;
+b11 <
+b101100000011 A
+#27000
+19
+b110 :
+b1 ;
+b100 <
+b110000000100 A
+#28000
+19
+b111 :
+b0 ;
+b0 <
+b110100000000 A
+#30000
+1"
+09
+b0 :
+b111000000000 A
+#32000
+0"
+b111100000000 A
+#34000
+1&
+b1000000000000 A
+#35000
+1%
+0&
+b1000000000001 A
+#36000
+1$
+0%
+b1000000000010 A
+#37000
+1#
+0$
+b1000000000011 A
+#38000
+0#
+b1000100000000 A
+#39000
+b1000100000001 A
+#40000
+b1000100000010 A
+#41000
+b1000100000011 A
+#42000

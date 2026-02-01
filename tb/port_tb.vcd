@@ -1,0 +1,195 @@
+$date
+	Tue Jan  6 17:45:24 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module port_tb $end
+$var wire 8 ! out [7:0] $end
+$var parameter 32 " WIDTH $end
+$var reg 1 # cePortDir $end
+$var reg 1 $ cePortOut $end
+$var reg 1 % clk $end
+$var reg 8 & portData [7:0] $end
+$var reg 1 ' portDir $end
+$scope module dut $end
+$var wire 1 # cePortDir $end
+$var wire 1 $ cePortOut $end
+$var wire 1 % clk $end
+$var wire 8 ( portData [7:0] $end
+$var wire 1 ' portDir $end
+$var wire 8 ) out [7:0] $end
+$var parameter 32 * WIDTH $end
+$var reg 1 + dir_reg $end
+$var reg 8 , out_reg [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 *
+b1000 "
+$end
+#0
+$dumpvars
+bx ,
+x+
+bx )
+b0 (
+0'
+b0 &
+0%
+0$
+0#
+bx !
+$end
+#5000
+1%
+#10000
+0%
+#15000
+1%
+#20000
+0%
+#25000
+1%
+#30000
+0%
+#35000
+1%
+#40000
+0%
+#45000
+1%
+#50000
+0%
+1'
+1#
+#55000
+1+
+1%
+#57000
+b10100101 &
+b10100101 (
+1$
+0#
+#60000
+0%
+#65000
+b10100101 !
+b10100101 )
+b10100101 ,
+1%
+#67000
+0$
+#68000
+b11111111 &
+b11111111 (
+#70000
+0%
+#75000
+1%
+#76000
+0'
+1#
+#80000
+0%
+#85000
+b0z !
+b0z )
+0+
+1%
+#87000
+0#
+#89000
+b111100 &
+b111100 (
+1$
+#90000
+0%
+#95000
+b111100 ,
+1%
+#97000
+0$
+#100000
+0%
+#105000
+1%
+#110000
+0%
+#115000
+1%
+#120000
+0%
+#125000
+1%
+#130000
+0%
+#135000
+1%
+#140000
+0%
+#145000
+1%
+#150000
+0%
+#155000
+1%
+#160000
+0%
+#165000
+1%
+#170000
+0%
+#175000
+1%
+#180000
+0%
+#185000
+1%
+#190000
+0%
+#195000
+1%
+#198000
+1'
+1#
+#200000
+0%
+#205000
+b111100 !
+b111100 )
+1+
+1%
+#207000
+0#
+#210000
+0%
+#215000
+1%
+#217000
+b1010101 &
+b1010101 (
+1$
+#220000
+0%
+#225000
+b1010101 !
+b1010101 )
+b1010101 ,
+1%
+#227000
+0$
+#230000
+0%
+#235000
+1%
+#240000
+0%
+#245000
+1%
+#248000
